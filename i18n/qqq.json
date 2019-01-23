@@ -1,0 +1,8 @@
+{
+  "@metadata": {
+    "authors": [ "Daniel Beard" ]
+  },
+
+  "trevelyan-skin-name": "{{name}}",
+  "trevelyan-skin-desc": "{{desc|what=skin|name=Trevelyan|url=https://www.halopedia.org/Halopedia:Skins/Trevelyan}}"
+}

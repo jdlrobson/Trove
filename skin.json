@@ -1,0 +1,44 @@
+{
+  "name": "Trevelyan",
+  "author": "Daniel Beard",
+  "url": "https://www.halopedia.org/Halopedia:Skins/Trevelyan",
+  "license-name": "GPL-2.0+",
+  "type": "skin",
+
+  "namemsg": "trevelyan-skin-name",
+  "descriptionmsg": "trevelyan-skin-desc",
+
+  "ValidSkinNames": {
+    "trevelyan": "Trevelyan"
+  },
+
+  "AutoloadClasses": {
+    "SkinTrevelyan": "includes/SkinTrevelyan.php",
+    "TrevelyanTemplate": "includes/TrevelyanTemplate.php"
+  },
+
+  "MessageDirs": {
+    "Onyx": "i18n"
+  },
+
+  "ResourceModules": {
+    "skins.trevelyan": {
+      "styles": {
+        "resources/screen.css": { "media": "screen" },
+        "resources/print.css": { "media": "print"}
+      }
+    },
+
+    "skins.trevelyan.js": {
+      "scripts": [
+        "resources/main.js"
+      ],
+      "position": "top"
+    }
+  },
+
+  "ResourceFileModulePaths": {
+    "localBasePath": "",
+    "remoteSkinPath": "Trevelyan"
+  }
+}
