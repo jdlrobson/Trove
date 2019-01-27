@@ -11,19 +11,31 @@ class TrevelyanTemplate extends BaseTemplate {
   /**
    * Outputs the entire contents of the page/
    */
-  public function execute() {
-    $this->html('headelement');
-?>
+  public function execute() { ?>
+<!-- START OF PAGE -->
+  <?php $this->html('headelement'); ?>
+    <!-- BANNER -->
+    <div if="trevelyan-banner">
 
-<!-- TODO: Implement skin here -->
+    </div>
+    <!-- NAVIGATIOn -->
+    <div id="trevelyan-navigation">
 
-<?php
-    $this->printTrail();
-?>
+    </div>
+    <!-- MENU -->
+    <div id="trevelyan-menu">
 
-  </body>
-</html>
+    </div>
+    <!-- SEARCH -->
+    <div id="trevelyan-search">
 
+    </div>
+    <!-- PAGE CONTENT -->
+    <div if="trevelyan-page">
+      
+    </div>
+  <?php $this->printTrail(); ?>
+<!-- END OF PAGE -->
 <?php
   }
 }
