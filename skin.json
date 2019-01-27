@@ -24,14 +24,14 @@
   "ResourceModules": {
     "skins.trevelyan": {
       "styles": {
-        "resources/screen.css": { "media": "screen" },
-        "resources/print.css": { "media": "print"}
+        "resources/trevelyan-screen.css": { "media": "screen" },
+        "resources/trevelyan-print.css": { "media": "print"}
       }
     },
 
     "skins.trevelyan.js": {
       "scripts": [
-        "resources/main.js"
+        "resources/trevelyan.js"
       ],
       "position": "top"
     }
