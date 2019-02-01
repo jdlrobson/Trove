@@ -20,13 +20,13 @@ class TrevelyanTemplate extends BaseTemplate {
       <div id="trevelyan-banner-search">
         <!-- TODO: Implement search button -->
       </div>
-      <!-- BANNER LOGO/NAV BUTTON -->
-      <div id="trevelyan-banner-navigation">
-        <!-- TODO: Implement main logo --->
-      </div>
       <!-- BANNER MENU BUTTON -->
       <div id="trevelyan-banner-menu">
         <!-- TODO: Implement menu button -->
+      </div>
+      <!-- BANNER LOGO/NAV BUTTON -->
+      <div id="trevelyan-banner-navigation">
+        <!-- TODO: Implement main logo --->
       </div>
     </div>
     <!-- NAVIGATION -->

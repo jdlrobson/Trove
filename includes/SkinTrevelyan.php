@@ -20,7 +20,7 @@
    */
   public function initPage(OutputPage $out) {
     parent::initPage($out);
-    $out->addModules('resources/main.js');
+    $out->addModules('skins.trevelyan.js');
   }
 
   /**
