@@ -2,7 +2,7 @@
   "name": "Trevelyan",
   "author": "Daniel Beard",
   "url": "https://www.halopedia.org/Halopedia:Skins/Trevelyan",
-  "license-name": "GPL-2.0+",
+  "license-name": "GPL-2.0-or-later",
   "type": "skin",
 
   "namemsg": "trevelyan-skin-name",
@@ -17,7 +17,7 @@
     "TrevelyanTemplate": "includes/TrevelyanTemplate.php"
   },
 
-  "MessageDirs": {
+  "MessagesDirs": {
     "Trevelyan": "i18n"
   },
 
