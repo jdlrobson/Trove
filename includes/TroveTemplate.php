@@ -5,13 +5,15 @@
  * @file
  * @ingroup Skins
  */
-
 class TroveTemplate extends BaseTemplate {
 
   /**
    * Outputs the entire contents of the page/
    */
-  public function execute() { ?>
+  public function execute() {
+    $parser = new TemplateParser( __DIR__ . '/../templates' );
+    
+    ?>
 <!-- START OF PAGE -->
   <?php $this->html('headelement'); ?>
     <!-- BANNER -->
