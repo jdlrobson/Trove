@@ -1,12 +1,12 @@
 <?php
 /**
- * BaseTemplate class for the Trevelyan skin.
+ * BaseTemplate class for the Trove skin.
  * 
  * @file
  * @ingroup Skins
  */
 
-class TrevelyanTemplate extends BaseTemplate {
+class TroveTemplate extends BaseTemplate {
 
   /**
    * Outputs the entire contents of the page/
@@ -15,42 +15,42 @@ class TrevelyanTemplate extends BaseTemplate {
 <!-- START OF PAGE -->
   <?php $this->html('headelement'); ?>
     <!-- BANNER -->
-    <div id="trevelyan-banner">
+    <div id="trove-banner">
       <!-- BANNER SEARCH BUTTON -->
-      <div id="trevelyan-banner-search">
+      <div id="trove-banner-search">
         <!-- TODO: Implement search button -->
       </div>
       <!-- BANNER MENU BUTTON -->
-      <div id="trevelyan-banner-menu">
+      <div id="trove-banner-menu">
         <!-- TODO: Implement menu button -->
       </div>
       <!-- BANNER LOGO/NAV BUTTON -->
-      <div id="trevelyan-banner-navigation">
+      <div id="trove-banner-navigation">
         <!-- TODO: Implement main logo --->
       </div>
     </div>
     <!-- NAVIGATION -->
-    <div id="trevelyan-navigation">
+    <div id="trove-navigation">
       <!-- TODO: Implement navigation fetching -->
     </div>
     <!-- MENU -->
-    <div id="trevelyan-menu">
+    <div id="trove-menu">
       <!-- TODO: Implement menu -->
     </div>
     <!-- SEARCH -->
-    <div id="trevelyan-search">
+    <div id="trove-search">
       <!-- TODO: Implement search form -->
     </div>
     <!-- PAGE CONTENT -->
-    <div id="trevelyan-page">
+    <div id="trove-page">
       <!-- ARTICLE HEADER -->
-      <div id="trevelyan-page-header">
+      <div id="trove-page-header">
         <!-- ARTICLE TITLE -->
-        <h1 id="trevelyan-header-title">
+        <h1 id="trove-header-title">
           <?php $this->html('title'); ?>
         </h1>
         <!-- EDIT BUTTON -->
-        <div id="trevelyan-header-editButton">
+        <div id="trove-header-editButton">
           <!-- TODO: Implement edit button -->
         </div>
         <!-- PAGE STATUS INDICATORS -->

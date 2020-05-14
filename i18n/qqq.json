@@ -3,6 +3,6 @@
     "authors": [ "Daniel Beard" ]
   },
 
-  "trevelyan-skin-name": "{{name}}",
-  "trevelyan-skin-desc": "{{desc|what=skin|name=Trevelyan|url=https://www.halopedia.org/Halopedia:Skins/Trevelyan}}"
+  "trove-skin-name": "{{name}}",
+  "trove-skin-desc": "{{desc|what=skin|name=Trove|url=https://www.halopedia.org/Halopedia:Skins/Trove}}"
 }

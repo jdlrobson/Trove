@@ -1,16 +1,16 @@
 <?php
 /**
- * SkinTemplate class for the Trevelyan skin.
+ * SkinTemplate class for the Trove skin.
  * 
  * @file
  * @ingroup Skins
  */
 
- class SkinTrevelyan extends SkinTemplate {
+ class SkinTrove extends SkinTemplate {
 
-  var $skinname = 'trevelyan';
-  var $stylename = 'Trevelyan';
-  var $template = 'TrevelyanTemplate';
+  var $skinname = 'trove';
+  var $stylename = 'Trove';
+  var $template = 'TroveTemplate';
   var $useHeadElement = true;
   
   /**
@@ -20,7 +20,7 @@
    */
   public function initPage(OutputPage $out) {
     parent::initPage($out);
-    $out->addModules('skins.trevelyan.js');
+    $out->addModules('skins.trove.js');
   }
 
   /**
@@ -30,6 +30,6 @@
    */
   function setupSkinUserCss(OutputPage $out) {
     parent::setupSkinUserCss($out);
-    $out->addModuleStyles(array('mediawiki.skinning.interface', 'skins.trevelyan'));
+    $out->addModuleStyles(array('mediawiki.skinning.interface', 'skins.trove'));
   }
  }

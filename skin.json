@@ -1,37 +1,37 @@
 {
-  "name": "Trevelyan",
+  "name": "Trove",
   "author": "Daniel Beard",
-  "url": "https://www.halopedia.org/Halopedia:Skins/Trevelyan",
+  "url": "https://www.halopedia.org/Halopedia:Skins/Trove",
   "license-name": "GPL-2.0-or-later",
   "type": "skin",
 
-  "namemsg": "trevelyan-skin-name",
-  "descriptionmsg": "trevelyan-skin-desc",
+  "namemsg": "trove-skin-name",
+  "descriptionmsg": "trove-skin-desc",
 
   "ValidSkinNames": {
-    "trevelyan": "Trevelyan"
+    "trove": "Trove"
   },
 
   "AutoloadClasses": {
-    "SkinTrevelyan": "includes/SkinTrevelyan.php",
-    "TrevelyanTemplate": "includes/TrevelyanTemplate.php"
+    "SkinTrove": "includes/SkinTrove.php",
+    "TroveTemplate": "includes/TroveTemplate.php"
   },
 
   "MessagesDirs": {
-    "Trevelyan": "i18n"
+    "Trove": "i18n"
   },
 
   "ResourceModules": {
-    "skins.trevelyan": {
+    "skins.trove": {
       "styles": {
-        "resources/trevelyan-screen.css": { "media": "screen" },
-        "resources/trevelyan-print.css": { "media": "print"}
+        "resources/trove-screen.css": { "media": "screen" },
+        "resources/trove-print.css": { "media": "print"}
       }
     },
 
-    "skins.trevelyan.js": {
+    "skins.trove.js": {
       "scripts": [
-        "resources/trevelyan.js"
+        "resources/trove.js"
       ],
       "position": "top"
     }
@@ -39,6 +39,6 @@
 
   "ResourceFileModulePaths": {
     "localBasePath": "",
-    "remoteSkinPath": "Trevelyan"
+    "remoteSkinPath": "Trove"
   }
 }
