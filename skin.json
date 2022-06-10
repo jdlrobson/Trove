@@ -4,6 +4,7 @@
   "url": "https://www.halopedia.org/Halopedia:Skins/Trove",
   "license-name": "GPL-2.0-or-later",
   "type": "skin",
+  "manifest_version": 2,
 
   "namemsg": "trove-skin-name",
   "descriptionmsg": "trove-skin-desc",

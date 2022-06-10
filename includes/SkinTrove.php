@@ -21,15 +21,6 @@
   public function initPage(OutputPage $out) {
     parent::initPage($out);
     $out->addModules('skins.trove.js');
-  }
-
-  /**
-   * Add CSS to the skin, via ResourceLoader.
-   * 
-   * @param OutputPage $out
-   */
-  function setupSkinUserCss(OutputPage $out) {
-    parent::setupSkinUserCss($out);
     $out->addModuleStyles(array('mediawiki.skinning.interface', 'skins.trove'));
   }
  }
